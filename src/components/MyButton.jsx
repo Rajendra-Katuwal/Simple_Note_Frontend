@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-const MyButton = ({ onClick, buttonText, className, other }) => {
+const MyButton = ({ onClick, buttonText, className }) => {
     return (
-        <button className={`border-2 rounded-sm py-1 px-2 text-black ${className}`} onClick={onClick}>{buttonText}</button>
-    )
+        <button
+            className={`w-full px-4 py-2 rounded-md bg-primary text-text
+                        hover:bg-secondary duration-200 shadow-md
+                        focus:outline-none focus:ring-2 focus:ring-accent transition-all ${className}`}
+            onClick={onClick}
+        >
+            {buttonText}
+        </button>
+    );
 }
 
 export default MyButton;

@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+
+/* Light Theme (Default) */
+:root {
+  color-scheme: light dark;
+  --primary: 59, 130, 246;       /* Blue */
+  --secondary: 99, 102, 241;     /* Indigo */
+  --accent: 251, 191, 36;        /* Amber */
+  --bg: 243, 244, 246;           /* Light Gray */
+  --bg-card: 255, 255, 255;      /* White */
+  --border: 209, 213, 219;       /* Gray */
+  --text: 31, 41, 55;            /* Dark Gray */
+  --placeholder: 107, 114, 128;  /* Gray */
+  --checkbox-bg: 229, 231, 235;  /* Light Gray Checkbox */
+  --checkbox-border: 156, 163, 175; /* Gray Border */
+  --checkbox-hover: 96, 165, 250; /* Blue Hover */
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: 96, 165, 250;       /* Light Blue */
+    --secondary: 165, 180, 252;    /* Soft Indigo */
+    --accent: 252, 211, 77;        /* Soft Amber */
+    --bg: 17, 24, 39;              /* Dark Gray */
+    --bg-card: 31, 41, 55;         /* Darker Gray */
+    --border: 55, 65, 81;          /* Dark Border */
+    --text: 229, 231, 235;         /* Light Gray */
+    --placeholder: 156, 163, 175;  /* Soft Gray */
+    --checkbox-bg: 55, 65, 81;     /* Dark Checkbox */
+    --checkbox-border: 107, 114, 128; /* Soft Gray Border */
+    --checkbox-hover: 165, 180, 252; /* Soft Indigo Hover */
+  }
+}
