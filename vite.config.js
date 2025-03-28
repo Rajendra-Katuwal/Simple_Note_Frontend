@@ -5,7 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),
   ],
   server: {
     host: '0.0.0.0',  // This makes the app accessible from other devices on the local network

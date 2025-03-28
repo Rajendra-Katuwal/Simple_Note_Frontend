@@ -1,0 +1,144 @@
+/* Light Theme (Default) */
+.light {
+    --primary: 59, 130, 246; /* Blue */
+    --secondary: 99, 102, 241; /* Indigo */
+    --accent: 251, 191, 36; /* Amber */
+    --bg: 243, 244, 246; /* Light Gray */
+    --bg-card: 255, 255, 255; /* White */
+    --border: 209, 213, 219; /* Gray */
+    --text: 31, 41, 55; /* Dark Gray */
+    --placeholder: 107, 114, 128; /* Gray */
+    --hover: 96, 165, 250; /* Blue Hover */
+    --focus: 59, 130, 246; /* Blue Focus */
+    --shadow: rgba(0, 0, 0, 0.1); /* Light Shadow */
+  }
+  
+  /* Dark Theme */
+  .dark {
+    --primary: 96, 165, 250; /* Light Blue */
+    --secondary: 165, 180, 252; /* Soft Indigo */
+    --accent: 252, 211, 77; /* Soft Amber */
+    --bg: 17, 24, 39; /* Dark Gray */
+    --bg-card: 31, 41, 55; /* Darker Gray */
+    --border: 55, 65, 81; /* Dark Border */
+    --text: 229, 231, 235; /* Light Gray */
+    --placeholder: 156, 163, 175; /* Soft Gray */
+    --hover: 165, 180, 252; /* Soft Indigo Hover */
+    --focus: 96, 165, 250; /* Light Blue Focus */
+    --shadow: rgba(255, 255, 255, 0.1); /* Soft White Shadow */
+  }
+  
+  /* Solarized Theme (Eye-friendly for long use) */
+  .solarized {
+    --primary: 38, 139, 210; /* Solarized Blue */
+    --secondary: 181, 137, 0; /* Solarized Yellow */
+    --accent: 133, 153, 0; /* Solarized Green */
+    --bg: 253, 246, 227; /* Light Beige */
+    --bg-card: 238, 232, 213; /* Warm Beige */
+    --border: 147, 161, 161; /* Muted Gray */
+    --text: 88, 110, 117; /* Dark Teal */
+    --placeholder: 101, 123, 131; /* Soft Blue Gray */
+    --hover: 42, 161, 152; /* Cyan Hover */
+    --focus: 38, 139, 210; /* Blue Focus */
+    --shadow: rgba(0, 0, 0, 0.2); /* Medium Shadow */
+  }
+  
+  /* Cyberpunk Theme (Futuristic neon aesthetic) */
+  .cyberpunk {
+    --primary: 0, 255, 255; /* Neon Cyan */
+    --secondary: 255, 140, 0; /* Neon Orange */
+    --accent: 255, 235, 59; /* Neon Yellow */
+    --bg: 18, 18, 18; /* Dark Black */
+    --bg-card: 28, 28, 28; /* Slightly lighter Black */
+    --border: 0, 255, 255; /* Neon Cyan Border */
+    --text: 255, 255, 255; /* Bright White Text */
+    --placeholder: 204, 204, 204; /* Light Gray Placeholder */
+    --hover: 255, 235, 59; /* Neon Yellow Hover */
+    --focus: 0, 255, 255; /* Neon Cyan Focus */
+    --shadow: rgba(0, 255, 255, 0.3); /* Neon Glow */
+  }
+
+  .dracula {
+    --primary: 98, 114, 164; /* Soft Purple */
+    --secondary: 255, 85, 85; /* Vibrant Red */
+    --accent: 189, 147, 249; /* Pastel Purple */
+    --bg: 40, 42, 54; /* Dark Background */
+    --bg-card: 68, 71, 90; /* Slightly Lighter Dark */
+    --border: 98, 114, 164; /* Subtle Purple */
+    --text: 248, 248, 242; /* Off White */
+    --placeholder: 139, 233, 253; /* Light Blue */
+    --hover: 255, 121, 198; /* Pink Hover */
+    --focus: 80, 250, 123; /* Green Focus */
+    --shadow: rgba(189, 147, 249, 0.3); /* Purple Glow */
+}
+
+.nord {
+  --primary: 94, 129, 172; /* Polar Night Blue */
+  --secondary: 136, 192, 208; /* Frost Teal */
+  --accent: 235, 203, 139; /* Frost Yellow */
+  --bg: 46, 52, 64; /* Dark Blue Gray */
+  --bg-card: 59, 66, 82; /* Slightly Lighter Dark */
+  --border: 76, 86, 106; /* Soft Gray */
+  --text: 236, 239, 244; /* Soft White */
+  --placeholder: 180, 181, 187; /* Light Gray */
+  --hover: 129, 161, 193; /* Soft Blue Hover */
+  --focus: 163, 190, 140; /* Green Focus */
+  --shadow: rgba(94, 129, 172, 0.2); /* Subtle Blue Glow */
+}
+
+.monokai {
+  --primary: 249, 38, 114; /* Pinkish Red */
+  --secondary: 102, 217, 239; /* Cyan */
+  --accent: 166, 226, 46; /* Green */
+  --bg: 39, 40, 34; /* Very Dark Gray */
+  --bg-card: 50, 50, 50; /* Slightly Lighter Dark */
+  --border: 117, 113, 94; /* Subtle Brownish Gray */
+  --text: 248, 248, 242; /* Off White */
+  --placeholder: 174, 129, 255; /* Purple */
+  --hover: 253, 151, 31; /* Orange Hover */
+  --focus: 102, 217, 239; /* Cyan Focus */
+  --shadow: rgba(249, 38, 114, 0.3); /* Pink Glow */
+}
+
+.forest {
+  --primary: 34, 139, 34; /* Forest Green */
+  --secondary: 85, 107, 47; /* Dark Olive Green */
+  --accent: 255, 165, 0; /* Warm Orange */
+  --bg: 25, 36, 25; /* Deep Green */
+  --bg-card: 34, 49, 34; /* Slightly Lighter Green */
+  --border: 107, 142, 35; /* Olive Green */
+  --text: 220, 220, 220; /* Light Gray */
+  --placeholder: 153, 186, 122; /* Muted Green */
+  --hover: 102, 205, 170; /* Turquoise Hover */
+  --focus: 60, 179, 113; /* Medium Green */
+  --shadow: rgba(34, 139, 34, 0.3); /* Green Glow */
+}
+
+.neon {
+  --primary: 255, 20, 147; /* Neon Pink */
+  --secondary: 0, 255, 127; /* Neon Green */
+  --accent: 0, 191, 255; /* Neon Blue */
+  --bg: 0, 0, 0; /* Pure Black */
+  --bg-card: 25, 25, 25; /* Deep Gray */
+  --border: 255, 20, 147; /* Neon Pink */
+  --text: 255, 255, 255; /* Bright White */
+  --placeholder: 204, 204, 204; /* Soft Gray */
+  --hover: 0, 255, 127; /* Neon Green Hover */
+  --focus: 0, 191, 255; /* Neon Blue Focus */
+  --shadow: rgba(255, 20, 147, 0.4); /* Pink Glow */
+}
+
+.autumn {
+  --primary: 205, 92, 92; /* Warm Red */
+  --secondary: 210, 105, 30; /* Chocolate Brown */
+  --accent: 255, 140, 0; /* Pumpkin Orange */
+  --bg: 60, 40, 20; /* Deep Brown */
+  --bg-card: 80, 50, 30; /* Lighter Brown */
+  --border: 139, 69, 19; /* Saddle Brown */
+  --text: 255, 228, 181; /* Soft Beige */
+  --placeholder: 222, 184, 135; /* Tan */
+  --hover: 255, 160, 122; /* Light Salmon Hover */
+  --focus: 244, 164, 96; /* Sandy Brown Focus */
+  --shadow: rgba(205, 92, 92, 0.3); /* Red Glow */
+}
+
